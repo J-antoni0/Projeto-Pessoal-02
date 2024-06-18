@@ -1,5 +1,6 @@
 header {
     text-align: center;
+    
 }
 div#multiplicação {
     text-align: center;
@@ -14,4 +15,13 @@ div#multiplicação {
 h2#textomultiplicação {
     position: relative;
     top: -15px;
+}
+
+p#pmulti {
+    background-color: #efefef;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.548);
+    border-radius: 5px;
+    text-align: left;
+    padding: 20px;
+    
 }
