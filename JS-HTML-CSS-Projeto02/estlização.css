@@ -18,10 +18,15 @@ h2#textomultiplicação {
 }
 
 p#pmulti {
+    font: normal 13pt italic;
     background-color: #efefef;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.548);
     border-radius: 5px;
     text-align: left;
     padding: 20px;
     
+}
+
+input#quadroum {
+    margin: auto;
 }
