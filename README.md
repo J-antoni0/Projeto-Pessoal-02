@@ -1,2 +1,2 @@
-# Calculadora
- Criado em JavaScript | HTML e CSS
+# Projeto Pessoal 002
+ Calculadora
