@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,9 +11,14 @@
         <h1>&#128269;Calculadora &#128208; <hr></h1>
     </header>
     <section>
-        <div id="multiplicação">
-            <h2 id="textomultiplicação">&#10133; Multiplicação &#10133;</h2>
-            <input type="number" name="pnumber" id="pnumber">
+        <div id="quadro">
+            <select name="escolha" id="esc">
+                <option value="Somar">Somar</option>
+                <option value="Subtrair">Subtrair</option>
+                <option value="Multiplicar">Multiplicar</option>
+                <option value="Dividir">Dividir</option>
+            </select > <br> <br>
+            <input type="number" name="pnumber" id="pnumber">   
             <input type="number" name="snumber" id="snumber">
             <input type="button" value="Calcular" onclick="clickmulti()">
             <p id="pmulti">

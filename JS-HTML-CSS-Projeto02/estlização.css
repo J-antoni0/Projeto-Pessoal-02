@@ -2,7 +2,12 @@ header {
     text-align: center;
     
 }
-div#multiplicação {
+
+select#esc {
+    margin: auto;
+    ;
+}
+div#quadro {
     text-align: center;
     border-radius: 10px;
     box-shadow: 5px 5px 10px;
@@ -12,10 +17,6 @@ div#multiplicação {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
 }
 
-h2#textomultiplicação {
-    position: relative;
-    top: -15px;
-}
 
 p#pmulti {
     font: normal 13pt italic;
