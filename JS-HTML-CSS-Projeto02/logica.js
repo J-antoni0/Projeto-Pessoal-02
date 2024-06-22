@@ -14,11 +14,13 @@
         let snumber = document.querySelector('input#snumber')
         let presp = document.querySelector('p#pmulti')
         let escolha = document.querySelector('select#esc').value
+        ('input#simbol')
 
         if (pnumber.value == 0 || snumber.value == 0) {
             
             window.alert ('ERRO! Favor inserir dados!')
-    
+            pnumber.value = ' '
+            snumber.value = ' '
         }
 
 
