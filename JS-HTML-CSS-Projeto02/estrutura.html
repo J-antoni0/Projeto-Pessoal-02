@@ -12,12 +12,14 @@
     </header>
     <section>
         <div id="quadro">
-            <select name="escolha" id="esc">
+            <select name="escolha" id="esc" onclick="clicou()">
                 <option value="Somar">Somar</option>
                 <option value="Subtrair">Subtrair</option>
                 <option value="Multiplicar">Multiplicar</option>
-                <option value="Dividir">Dividir</option>
-            </select > <br> <br>
+                <option value="Divisao Real">Divisão Real</option>
+                <option value="Divisao Inteira">Divisão Inteira</option>
+            </select > 
+            <br> <br>
             <input type="number" name="pnumber" id="pnumber">   
             <input type="number" name="snumber" id="snumber">
             <input type="button" value="Calcular" onclick="clickmulti()">
